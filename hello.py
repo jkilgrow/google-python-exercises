@@ -27,6 +27,8 @@ def main():
   else:
     name = 'World'
   print('Hello', name)
+  print('argv[0]:', sys.argv[0])
+  print('len args: ', len(sys.argv))
 
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
